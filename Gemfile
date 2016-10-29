@@ -1,4 +1,6 @@
-source 'http://rubygems.org'
+
+java_home = '/usr/lib/jvm/java-1.7.0-openjdk.x86_64/'
+ENV['JAVA_HOME'] = java_home if Dir.exist?(java_home)
 
 gem 'rails', '~> 4.2.6'
 
