@@ -37,7 +37,7 @@ gem 'paper_trail'
 gem 'pg', group: :production
 gem 'protected_attributes'
 gem 'rails4-autocomplete'
-gem 'rake-11.3.0'
+gem 'rake'
 gem 'rb-readline'
 gem 'rest-client', '~> 1.8'
 gem 'RedCloth'
