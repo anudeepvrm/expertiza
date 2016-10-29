@@ -1,6 +1,4 @@
 
-java_home = '/usr/lib/jvm/java-1.7.0-openjdk.x86_64/'
-ENV['JAVA_HOME'] = java_home if Dir.exist?(java_home)
 
 gem 'rails', '~> 4.2.6'
 
@@ -44,7 +42,7 @@ gem 'rb-readline'
 gem 'rest-client', '~> 1.8'
 gem 'RedCloth'
 gem 'rgl', require: 'rgl/adjacency'
-gem 'rjb'
+#gem 'rjb'
 gem 'rubyzip'
 gem 'rwordnet', '0.1.3'
 gem 'scrypt'
